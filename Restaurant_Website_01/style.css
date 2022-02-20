@@ -1,5 +1,13 @@
+html{
+    height: 100%;
+}
+
 body{
     background-color: rgb(59, 59, 59);
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container{
