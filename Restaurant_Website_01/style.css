@@ -23,9 +23,9 @@ header{
 
 nav{
     background-color: rgba(0, 0, 0, 0.338);
-    height: 40px;
     text-align: center;
-    text-decoration: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 main{
@@ -57,4 +57,11 @@ a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     /* text-decoration: none; */
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
