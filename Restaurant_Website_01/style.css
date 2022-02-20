@@ -11,6 +11,7 @@ body{
 header{
     background-color: blue;
     height: 118px;
+    text-align: center;
 }
 
 nav{
