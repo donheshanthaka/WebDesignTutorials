@@ -1,7 +1,3 @@
-html {
-    /* height: 100%; */
-}
-
 body{
     background-image: linear-gradient(#FC5E55 , #FA4083);
     font-family: 'Roboto', sans-serif;
@@ -27,6 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid lightgray;
 }
 
 
@@ -127,4 +124,27 @@ a.myButton {
 
 nav a.myButton {
     margin-left: 30px;
+    box-shadow: 0px 0px 0px black;
+}
+
+.navButton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
