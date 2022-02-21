@@ -14,28 +14,40 @@ header{
 main{
     background-color: rgb(130, 214, 61);
     min-height: 300px;
+    display: flex;
 }
 
 .cards{
     background-color: rgb(179, 255, 117);
     min-height: 300px;
     display: flex;
+    justify-content: space-between;
 }
 
 .card1{
     background-color: rgb(255, 65, 138);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 
 .card2{
     background-color: rgb(250, 93, 153);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 
 .card3{
     background-color: rgb(253, 137, 182);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
+}
+
+.herobox1 {
+    background-color: cornflowerblue;
+    flex: 2;
+}
+
+.herobox2 {
+    background-color: mintcream;
+    flex: 1;
 }
