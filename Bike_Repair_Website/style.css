@@ -30,6 +30,7 @@ main{
 .cards{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1{
@@ -65,13 +66,24 @@ main{
     flex: 1;
 }
 
-h1{
+h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
 p {
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
 }
