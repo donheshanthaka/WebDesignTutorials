@@ -92,3 +92,8 @@ p {
     font-size: 100PX;
     padding-top: 30px;
 }
+
+.cards a h2 {
+    color: white;
+    text-decoration: none;
+}
