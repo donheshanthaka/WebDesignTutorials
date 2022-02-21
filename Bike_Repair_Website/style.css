@@ -1,3 +1,6 @@
+html {
+    /* height: 100%; */
+}
 
 body{
     background-image: linear-gradient(#FC5E55 , #FA4083);
@@ -5,6 +8,12 @@ body{
     color: white;
     font-size: 1.125rem;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .container{
     width: 1024px;
     min-height: 300px;
@@ -39,6 +48,7 @@ main{
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
 }
 
 .card2{
@@ -47,6 +57,7 @@ main{
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
 }
 
 .card3{
@@ -55,6 +66,12 @@ main{
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
 }
 
 .herobox1 {
@@ -70,6 +87,7 @@ h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250);
 }
 
 h2 {
@@ -85,15 +103,28 @@ p {
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
+    margin-top: 10px;
 }
 
 .cards i {
     font-size: 100PX;
-    padding-top: 30px;
 }
 
-.cards a h2 {
-    color: white;
-    text-decoration: none;
+.myButton {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250);
+   
+}
+
+a.myButton {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav a.myButton {
+    margin-left: 30px;
 }
