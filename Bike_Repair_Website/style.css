@@ -137,6 +137,8 @@ nav a.myButton {
     border: 1px solid white;
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
 
 }
 
@@ -153,4 +155,26 @@ nav a.myButton {
     border: 1px solid white;
     box-sizing: border-box;
     margin-top: 50px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -37px;
+}
+
+.navButton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navButton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navButton a {
+    color: #FA4083;
 }
