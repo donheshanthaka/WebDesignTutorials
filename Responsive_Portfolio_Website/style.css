@@ -15,11 +15,22 @@ body {
     justify-content: space-between;
 }
 
+.header-container {
+    background-color: rgb(61, 61, 61);
+    min-height: 100px;
+    margin-bottom: 40px;
+}
+
+header {
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
 .col {
     width: 30%;
     margin-bottom: 40px;
     background-color: rgb(43, 226, 147);
-    
 }
 
 .col p {
