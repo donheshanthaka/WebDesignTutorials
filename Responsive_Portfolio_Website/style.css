@@ -19,12 +19,20 @@
     margin-bottom: 40px;
 }
 
+.hide-desktop-only{
+    display: none;
+}
+
 /* Tablet View */
 @media (max-width: 768px){
 
  .col{
      width: 45%;
  }
+
+ .hide-desktop-only{
+    display: block;
+}
 
 } 
 
@@ -33,6 +41,10 @@
 @media (max-width: 400px){
 .col{
     width: 100%;
+}
+
+.hide-mobile {
+    display: none;
 }
 
 } 
