@@ -47,6 +47,10 @@ header {
     margin-left: 20px;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 .col {
     width: 30%;
     margin-bottom: 40px;
