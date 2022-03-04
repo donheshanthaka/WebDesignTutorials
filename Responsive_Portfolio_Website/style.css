@@ -81,25 +81,51 @@ header {
 /* Tablet View */
 @media (max-width: 768px){
 
- .col{
-     width: 45%;
- }
+    .col{
+        width: 45%;
+    }
 
- .hide-desktop-only{
-    display: block;
-}
+    .hide-desktop-only{
+        display: block;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    .container {
+        padding-top: 40px;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .logo {
+        padding: 40px 0;
+
+    }
+
+    .myButton {
+        margin-left: 0;
+    }
 
 } 
 
 /* Mobile View */
 
 @media (max-width: 400px){
-.col{
-    width: 100%;
-}
+    .col{
+        width: 100%;
+    }
 
-.hide-mobile {
-    display: none;
-}
+    .hide-mobile {
+        display: none;
+    }
 
 } 
