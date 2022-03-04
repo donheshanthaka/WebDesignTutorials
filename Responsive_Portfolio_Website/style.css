@@ -77,6 +77,10 @@ header {
     font-weight: 700;
 }
 
+.mob-wrapper{
+    display: none;
+}
+
 
 /* Tablet View */
 @media (max-width: 768px){
@@ -89,17 +93,16 @@ header {
         display: block;
     }
 
-    header {
-        display: block;
-        text-align: center;
-    }
-
     .header-container {
         position: relative;
     }
 
     .container {
         padding-top: 40px;
+    }
+
+    nav {
+        display: none;
     }
 
     nav a {
@@ -113,6 +116,25 @@ header {
 
     .myButton {
         margin-left: 0;
+    }
+
+    .mob-wrapper{
+        display: block;
+        padding-right: 30px;
+    }
+
+    .mob-nav {
+        display: none;
+        position: absolute;
+        padding-top: 10px;
+    }
+
+    .navButton {
+        display: block;
+        background-color: coral;
+        padding: 15px 30px;
+        margin-left: -70px;
+        text-align: center;
     }
 
 } 
